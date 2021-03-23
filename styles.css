@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+
+.social{
+  color: blue;
+}
+
+.btnlog{
+  padding-left: 16%;
+}
+
+.social .face {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 93%
+  );
+  background-size: 68%;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: blue;
+}
+
+.social .twitter {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 93%
+  );
+  background-size: 68%;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+  font-size: 28px;
+  color: rgb(126, 126, 223);
+  text-align: center;
+}
+
+.social .google {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 93%
+  );
+  background-size: 76%;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+  font-size: 28px;
+  color: red;
+  text-align: center;
+}
+
+.social .whatsapp {
+  font-size: 28px;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    green 20%,
+    green 93%,
+    transparent 93%
+  );
+  background-size: 85%;
+  background-position: 60% 0;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+.logo h2{
+  font-size: 50px;
+  font-weight: 400;
+  color:rgb(224, 21, 21)
+}
+.m{
+  color: rgb(6, 102, 139);
+font-size: 75px;
+font-weight: 600;
+}
+
+
+.logo img {
+  transform: rotate(12deg);
+ 
+}
+
+@media (max-width:1080px) {
+  .logo img{
+    padding-top: 5%;
+    padding-left: 35%;
+  }
+}
+
+@media (max-width:1024px) {
+  .logo img{
+    padding-top: 7%;
+    padding-left: 14%;
+  }
+
+}
